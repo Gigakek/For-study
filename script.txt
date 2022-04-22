@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir forfirstscript
+cd forfirstscript
+mkdir -p fold_1 fold_2 fold_3
+cd fold_1
+touch qa.txt qa1.txt qa2.txt post.json man.json
+mkdir -p qafold_1 qafold_2 qafold_3
+ls -la
+mv qa.txt post.json ../fold_2/
